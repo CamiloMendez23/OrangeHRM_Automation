@@ -30,22 +30,22 @@ public class EmployeeTest extends BaseTest {
         LoginPage loginPage = new LoginPage(driver);
         PIMPage pimPage = new PIMPage(driver);
 
-        // Generar unicidad combinando el nombre del archivo con la hora actual en milisegundos
-        String idUnico = String.valueOf(System.currentTimeMillis()).substring(7); // Extrae los últimos 6 dígitos
+
+        String idUnico = String.valueOf(System.currentTimeMillis()).substring(9);
         String nombreDinamico = nombre + idUnico;
         String usuarioDinamico = nombre.toLowerCase() + apellido.toLowerCase() + idUnico;
 
         loginPage.login("Admin", "admin123");
         pimPage.navigateToPIM();
 
-        // Agregar empleado con todos los campos requeridos
+
         pimPage.addEmployee(nombreDinamico, segundoNombre, apellido, idUnico, usuarioDinamico, password);
 
-        // Buscar por el nombre único generado
+
         pimPage.searchEmployee(nombreDinamico);
         String resultName = pimPage.getFirstSearchResultName();
 
-        // Aserción en TestNG
+
         Assert.assertTrue(resultName.contains(nombreDinamico), "El empleado no apareció en la grilla.");
     }
 }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite OrangeHRM]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Pruebas en Chrome(failed)">
+    <parameter name="navegador" value="chrome"/>
+    <classes>
+      <class name="tests.EmployeeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testAddAndSearchEmployee" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.EmployeeTest -->
+    </classes>
+  </test> <!-- Pruebas en Chrome(failed) -->
+  <test thread-count="5" name="Pruebas en Firefox(failed)">
+    <parameter name="navegador" value="firefox"/>
+    <classes>
+      <class name="tests.EmployeeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testAddAndSearchEmployee" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- tests.EmployeeTest -->
+    </classes>
+  </test> <!-- Pruebas en Firefox(failed) -->
+</suite> <!-- Failed suite [Suite OrangeHRM] -->

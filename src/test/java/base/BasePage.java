@@ -13,8 +13,8 @@ public class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        // Espera máxima de 15 segundos para elementos lentos
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
     }
 
     protected void click(By locator) {

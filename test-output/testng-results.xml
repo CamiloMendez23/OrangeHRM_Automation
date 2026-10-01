@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-01T10:22:31 BOT" name="Suite OrangeHRM" finished-at="2026-10-01T10:26:40 BOT" duration-ms="249163">
+    <groups>
+    </groups>
+    <test started-at="2026-10-01T10:22:31 BOT" name="Pruebas en Chrome" finished-at="2026-10-01T10:24:45 BOT" duration-ms="134009">
+      <class name="tests.EmployeeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.EmployeeTest@7722c3c3]" started-at="2026-10-01T10:22:31 BOT" name="setUp" finished-at="2026-10-01T10:22:40 BOT" duration-ms="9790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddAndSearchEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.EmployeeTest@7722c3c3]" started-at="2026-10-01T10:22:40 BOT" name="testAddAndSearchEmployee" data-provider="datosEmpleados" finished-at="2026-10-01T10:23:30 BOT" duration-ms="50066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rodrigo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Camilo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mendez]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pass1234!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAndSearchEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EmployeeTest@7722c3c3]" started-at="2026-10-01T10:23:30 BOT" name="tearDown" finished-at="2026-10-01T10:23:31 BOT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.EmployeeTest@7722c3c3]" started-at="2026-10-01T10:23:31 BOT" name="setUp" finished-at="2026-10-01T10:23:50 BOT" duration-ms="19654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddAndSearchEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.EmployeeTest@7722c3c3]" started-at="2026-10-01T10:23:50 BOT" name="testAddAndSearchEmployee" data-provider="datosEmpleados" finished-at="2026-10-01T10:24:44 BOT" duration-ms="54283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Renee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gallardo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test4321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAndSearchEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EmployeeTest@7722c3c3]" started-at="2026-10-01T10:24:44 BOT" name="tearDown" finished-at="2026-10-01T10:24:45 BOT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.EmployeeTest -->
+    </test> <!-- Pruebas en Chrome -->
+    <test started-at="2026-10-01T10:24:45 BOT" name="Pruebas en Firefox" finished-at="2026-10-01T10:26:40 BOT" duration-ms="115139">
+      <class name="tests.EmployeeTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.EmployeeTest@2b662a77]" started-at="2026-10-01T10:24:45 BOT" name="setUp" finished-at="2026-10-01T10:24:52 BOT" duration-ms="6920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddAndSearchEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.EmployeeTest@2b662a77]" started-at="2026-10-01T10:24:52 BOT" name="testAddAndSearchEmployee" data-provider="datosEmpleados" finished-at="2026-10-01T10:25:29 BOT" duration-ms="37951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rodrigo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Camilo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mendez]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pass1234!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAndSearchEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EmployeeTest@2b662a77]" started-at="2026-10-01T10:25:29 BOT" name="tearDown" finished-at="2026-10-01T10:25:30 BOT" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.EmployeeTest@2b662a77]" started-at="2026-10-01T10:25:30 BOT" name="setUp" finished-at="2026-10-01T10:25:58 BOT" duration-ms="28626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddAndSearchEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.EmployeeTest@2b662a77]" started-at="2026-10-01T10:25:58 BOT" name="testAddAndSearchEmployee" data-provider="datosEmpleados" finished-at="2026-10-01T10:26:39 BOT" duration-ms="41164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Renee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gallardo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test4321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAndSearchEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EmployeeTest@2b662a77]" started-at="2026-10-01T10:26:39 BOT" name="tearDown" finished-at="2026-10-01T10:26:40 BOT" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.EmployeeTest -->
+    </test> <!-- Pruebas en Firefox -->
+  </suite> <!-- Suite OrangeHRM -->
+</testng-results>
