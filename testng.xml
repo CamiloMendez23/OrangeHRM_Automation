@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- Ejecución secuencial para evitar colisiones en la base de datos -->
+<suite name="Suite OrangeHRM">
+
+    <test name="Pruebas en Chrome">
+        <parameter name="navegador" value="chrome"/>
+        <classes>
+            <class name="tests.EmployeeTest"/>
+        </classes>
+    </test>
+
+    <test name="Pruebas en Firefox">
+        <parameter name="navegador" value="firefox"/>
+        <classes>
+            <class name="tests.EmployeeTest"/>
+        </classes>
+    </test>
+
+</suite>

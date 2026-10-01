@@ -20,12 +20,18 @@
             <artifactId>selenium-java</artifactId>
             <version>4.24.0</version>
         </dependency>
-        <!-- JUnit 5 para las pruebas -->
+        <!-- TestNG (Reemplaza a JUnit) -->
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.10.0</version>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.9.0</version>
             <scope>test</scope>
+        </dependency>
+        <!-- OpenCSV para leer el archivo de datos -->
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>5.9</version>
         </dependency>
     </dependencies>
 

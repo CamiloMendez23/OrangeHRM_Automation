@@ -1,21 +1,29 @@
 package base;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 public class BaseTest {
     protected WebDriver driver;
 
-    @BeforeEach
-    public void setUp() {
-        driver = new ChromeDriver();
+    @Parameters("navegador")
+    @BeforeMethod
+    public void setUp(String navegador) {
+        if (navegador.equalsIgnoreCase("chrome")) {
+            driver = new ChromeDriver();
+        } else if (navegador.equalsIgnoreCase("firefox")) {
+            driver = new FirefoxDriver();
+        }
+
         driver.manage().window().maximize();
         driver.get("https://opensource-demo.orangehrmlive.com/");
     }
 
-    @AfterEach
+    @AfterMethod
     public void tearDown() {
         if (driver != null) {
             driver.quit();
